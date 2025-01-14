@@ -1,0 +1,24 @@
+:root {
+  --color-neutral-background: #0e1113;
+  --color-neutral-content: #b7cad4;
+  --color-neutral-content-disabled: #303030;
+  --color-neutral-content-strong: #eef1f3;
+  --color-neutral-border-weak: #FFFFFF19;
+  --color-neutral-background-strong: #181C1F;
+}
+
+html,
+body {
+  height: 100dvh;
+  width: 100dvw;
+  & * {
+    box-sizing: border-box;
+  }
+  background-color: var(--color-neutral-background);
+  color: var(--color-neutral-content);
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}

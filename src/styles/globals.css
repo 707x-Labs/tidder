@@ -1,3 +1,16 @@
+@import url("./custom.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --color-neutral-background: #0e1113;
+    --color-neutral-content: #b7cad4;
+    --color-neutral-content-disabled: #303030;
+    --color-neutral-content-strong: #eef1f3;
+    --color-neutral-border-weak: #ffffff19;
+    --color-neutral-background-strong: #181c1f;
+  }
+}
